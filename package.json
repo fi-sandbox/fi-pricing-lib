@@ -1,0 +1,28 @@
+{
+  "name": "fi-pricing-lib",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Pricing calculation library (Node.js), medium test coverage",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fi-sandbox/fi-pricing-lib.git"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "lcov",
+      "json-summary"
+    ]
+  }
+}
