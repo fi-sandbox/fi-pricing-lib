@@ -1,6 +1,8 @@
+// Tiers are declared in ascending order of minQuantity so the table reads
+// naturally, from the smallest bulk order upwards.
 const TIERS = [
-  { minQuantity: 100, rate: 0.15 },
   { minQuantity: 10, rate: 0.05 },
+  { minQuantity: 100, rate: 0.15 },
 ];
 
 function bulkDiscountRate(quantity) {
